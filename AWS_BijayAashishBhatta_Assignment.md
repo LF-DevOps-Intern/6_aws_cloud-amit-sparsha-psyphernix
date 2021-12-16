@@ -46,7 +46,13 @@
 
 2. **Creating a Lambda function that is triggered by an object being uploaded to an S3 bucket (If the object’s name starts with make_public, ensure that the object is publicly accessible):**
 
+    ![image](https://user-images.githubusercontent.com/34814966/146435542-4a538cc3-a4bf-43ed-90a8-93e9d8e422df.png)
 
+    ![image](https://user-images.githubusercontent.com/34814966/146435879-3a578e88-c2d6-447c-be44-af95b79eea85.png)
+    
+    ![image](https://user-images.githubusercontent.com/34814966/146438080-f8829634-d666-4f54-81e4-4eb622c2474e.png)
+
+    
 
 3. **Hosting a react application on an S3 Bucket and deliver it through cloudfront:**
 
