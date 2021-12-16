@@ -43,7 +43,7 @@
 
     ![image](https://user-images.githubusercontent.com/34814966/146415357-0b45a6f8-2c0c-42b0-ac5b-ede48009c744.png)
 
-
+    
 2. **Creating a Lambda function that is triggered by an object being uploaded to an S3 bucket (If the object’s name starts with make_public, ensure that the object is publicly accessible):**
 
     ![image](https://user-images.githubusercontent.com/34814966/146435542-4a538cc3-a4bf-43ed-90a8-93e9d8e422df.png)
@@ -52,7 +52,10 @@
     
     ![image](https://user-images.githubusercontent.com/34814966/146438080-f8829634-d666-4f54-81e4-4eb622c2474e.png)
 
-    
+    ![image](https://user-images.githubusercontent.com/34814966/146445149-8fc8ccd9-ff7c-43e5-b900-6088e057f9a9.png)
+
+    ![image](https://user-images.githubusercontent.com/34814966/146445379-9b7e2f1f-2276-48b9-9371-873124f81bb8.png)
+
 
 3. **Hosting a react application on an S3 Bucket and deliver it through cloudfront:**
 
