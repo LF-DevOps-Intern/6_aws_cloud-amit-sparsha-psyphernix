@@ -1,10 +1,48 @@
 1. **Writing a script that backs up an SQL dump and uploads it to an S3 Bucket (the contents of the S3 bucket should not be accessible via public):**
 
-![image](https://user-images.githubusercontent.com/34814966/146380111-5cafda59-4dda-4813-9ab4-df10f09b3fe2.png)
+    At first, Let's create a database and some tables.
 
-![image](https://user-images.githubusercontent.com/34814966/146380188-36a6b0b3-dec4-414e-97ca-20b38b2274e3.png)
+    ![image](https://user-images.githubusercontent.com/34814966/146380111-5cafda59-4dda-4813-9ab4-df10f09b3fe2.png)
 
-![image](https://user-images.githubusercontent.com/34814966/146391234-f760ea8b-a2b7-46e2-871f-6357246da00c.png)
+    ![image](https://user-images.githubusercontent.com/34814966/146380188-36a6b0b3-dec4-414e-97ca-20b38b2274e3.png)
+
+    ![image](https://user-images.githubusercontent.com/34814966/146391234-f760ea8b-a2b7-46e2-871f-6357246da00c.png)
+    
+    Now, lets create a s3 bucket where we have to upload a file
+    
+    ![image](https://user-images.githubusercontent.com/34814966/146405712-dd4d288e-ec72-40bd-8d9e-3d37532f05e5.png)
+
+    ![image](https://user-images.githubusercontent.com/34814966/146405804-cecbe7cc-3608-4388-bbae-847cb6569d98.png)
+
+    ![image](https://user-images.githubusercontent.com/34814966/146406050-170e87d4-d113-4287-8db8-c05cbb75872a.png)
+    
+    Lets create script:
+        
+        $ sudo vim dbbackup-s3.sh
+        $ sudo chmod +x dbbackup-s3.sh
+        
+    Here is the script that will automate task: 
+        
+        #!/bin/sh
+        echo "Starting database backup..."
+        day="$(date +'%A%d%m%Y')"
+        db_backup="bab_db_${day}.sql"
+        sudo mysqldump  -u root --no-tablespaces AWS > /home/psyphernix/${db_backup}
+        echo "Database backup completed."
+        echo "Sending backup file to S3 bucket..."
+        aws s3 cp $db_backup s3://bab-s3-bucket/db/
+        echo "File is successfully sent to S3 bucket."
+    
+    Now lets backup using script:
+        
+        $ ./dbbackup-s3.sh
+    
+    ![image](https://user-images.githubusercontent.com/34814966/146414147-25718dcc-56cd-4747-aca3-98dddb8d1629.png)
+
+    ![image](https://user-images.githubusercontent.com/34814966/146414041-f705cdac-2826-4570-9524-37968c726770.png)
+
+    ![image](https://user-images.githubusercontent.com/34814966/146415357-0b45a6f8-2c0c-42b0-ac5b-ede48009c744.png)
+
 
 2. **Creating a Lambda function that is triggered by an object being uploaded to an S3 bucket (If the object’s name starts with make_public, ensure that the object is publicly accessible):**
 
