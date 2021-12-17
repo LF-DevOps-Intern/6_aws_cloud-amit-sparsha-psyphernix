@@ -4,6 +4,8 @@ cd "${0%/*}"
 dir="./react"
 bucket="bab-react-s3-ga"
 
+yarn
+yarn build
 echo "Deploying react app to s3 bucket $bucket"
 aws s3api create-bucket --bucket $bucket --region us-east-2 --create-bucket-configuration LocationConstraint=us-east-2
 aws s3 cp --recursive $dir s3://$bucket/
