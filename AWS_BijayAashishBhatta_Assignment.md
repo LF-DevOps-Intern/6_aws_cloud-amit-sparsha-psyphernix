@@ -80,6 +80,10 @@
 
 4. **Creating two Lambda Functions - First Lambda function returns 200 Response as {“Hello”: “Default”}
 and Second Lambda function returns 200 Response as {“Hello”: “{Dynamic route name}”} :**
+#### - Configure API Gateway with that hits first lambda function on / and the second lambda function on /* : 
+    
+   - API gateway
+    
     
    - First Function:
    
@@ -95,6 +99,6 @@ and Second Lambda function returns 200 Response as {“Hello”: “{Dynamic rou
    
    ![image](https://user-images.githubusercontent.com/34814966/146504497-351e18e4-1193-4179-9e44-4f5d8ce9cd32.png)
 
+   ![image](https://user-images.githubusercontent.com/34814966/146511520-42bbb64a-d5e8-455e-b96c-d547fd27947c.png)
 
-  - Configure API Gateway with that hits first lambda function on / and the second lambda function on /* : 
-
+ 
