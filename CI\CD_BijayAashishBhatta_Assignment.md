@@ -29,3 +29,14 @@
 
 3. **Integrating both these scripts with Github Actions:**
 
+    ![image](https://user-images.githubusercontent.com/34814966/146608085-5db0f2e5-ce80-4de4-839c-f8f4ea591338.png)
+
+    ![image](https://user-images.githubusercontent.com/34814966/146612233-8a2ee691-4f9c-435b-9361-ff88bc06bb20.png)
+
+    ![image](https://user-images.githubusercontent.com/34814966/146612271-f707beab-75dc-4929-9841-175a5e43e56f.png)
+    
+    ![image](https://user-images.githubusercontent.com/34814966/146612329-ecac5889-1234-4631-abf1-f51e53e25dbd.png)
+
+    ![image](https://user-images.githubusercontent.com/34814966/146612471-cf43fcaa-c240-4241-a633-5ccb737bf22c.png)
+
+    
