@@ -83,18 +83,18 @@ and Second Lambda function returns 200 Response as {“Hello”: “{Dynamic rou
 #### - Configure API Gateway with that hits first lambda function on / and the second lambda function on /* : 
     
    - First Function:
-   
-   ![image](https://user-images.githubusercontent.com/34814966/146504301-2b73f7ac-6487-4258-acf1-92d40a8213ec.png)
-   
-   ![image](https://user-images.githubusercontent.com/34814966/146509038-d4df6cc6-a01b-4262-9845-566005f21f0d.png)
-     
-   ![image](https://user-images.githubusercontent.com/34814966/146508792-af5c8369-a285-4f91-82a1-77e882754cce.png)
 
+   ![image](https://user-images.githubusercontent.com/34814966/146518294-e45bca9f-2538-4eed-a835-50cbe7177eca.png)
+   
    - Second Function:
    
-   ![image](https://user-images.githubusercontent.com/34814966/146504497-351e18e4-1193-4179-9e44-4f5d8ce9cd32.png)
+   ![image](https://user-images.githubusercontent.com/34814966/146518436-3fde7701-3afa-476e-91bd-f4a5d095aa4d.png)
 
-   ![image](https://user-images.githubusercontent.com/34814966/146511520-42bbb64a-d5e8-455e-b96c-d547fd27947c.png)
-   
- 
    - API GATEWAY:
+
+   ![image](https://user-images.githubusercontent.com/34814966/146519480-22a51129-7406-48b3-af30-343d01cd2b04.png)
+
+   ![image](https://user-images.githubusercontent.com/34814966/146519686-f5c291ad-b826-4928-a021-fca4d031db0f.png)
+   
+   ![image](https://user-images.githubusercontent.com/34814966/146520007-d6226248-1bc7-4c5d-b7cf-e19fbbb03054.png)
+
