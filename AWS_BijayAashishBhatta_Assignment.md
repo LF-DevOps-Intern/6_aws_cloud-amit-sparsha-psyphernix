@@ -83,7 +83,7 @@ and Second Lambda function returns 200 Response as {“Hello”: “{Dynamic rou
     
    - First Function:
    
-   ![image](https://user-images.githubusercontent.com/34814966/146504301-2b73f7ac-6487-4258-acf1-92d40a8213ec.png
+  ![image](https://user-images.githubusercontent.com/34814966/146504301-2b73f7ac-6487-4258-acf1-92d40a8213ec.png
      
      
    - Second Function:
