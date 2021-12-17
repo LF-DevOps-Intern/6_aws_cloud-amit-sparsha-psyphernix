@@ -22,5 +22,6 @@
         
     ![image](https://user-images.githubusercontent.com/34814966/146591496-07755c6b-bae8-4553-a3a5-ddda2b1d3452.png)
 
+    ![image](https://user-images.githubusercontent.com/34814966/146602993-dda8d560-5d2c-47c5-9838-a071b4486338.png)
 
 3. **Integrating both these scripts with Github Actions:**
