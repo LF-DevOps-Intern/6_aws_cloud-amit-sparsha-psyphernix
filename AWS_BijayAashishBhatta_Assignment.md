@@ -83,9 +83,14 @@ and Second Lambda function returns 200 Response as {“Hello”: “{Dynamic rou
     
    - First Function:
    
-  ![image](https://user-images.githubusercontent.com/34814966/146504301-2b73f7ac-6487-4258-acf1-92d40a8213ec.png
+   ![image](https://user-images.githubusercontent.com/34814966/146506660-eadd3d7b-482e-49bb-833f-83318964d2ad.png)
+   
+   ![image](https://user-images.githubusercontent.com/34814966/146504301-2b73f7ac-6487-4258-acf1-92d40a8213ec.png)
+   
+   ![image](https://user-images.githubusercontent.com/34814966/146509038-d4df6cc6-a01b-4262-9845-566005f21f0d.png)
      
-     
+   ![image](https://user-images.githubusercontent.com/34814966/146508792-af5c8369-a285-4f91-82a1-77e882754cce.png)
+
    - Second Function:
    
    ![image](https://user-images.githubusercontent.com/34814966/146504497-351e18e4-1193-4179-9e44-4f5d8ce9cd32.png)
