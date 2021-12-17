@@ -1,9 +1,9 @@
 #!/bin/bash
 export AWS_MAX_ATTEMPTS=1
-role=bab-bl-role
+role=bab-bl-role-ga
 fileName=bab-bl
 timeOut=5
-functionName=bab-bl-function
+functionName=bab-bl-function-ga
 
 # Creating role for lambda
 timeout $timeOut aws iam wait role-exists --role-name $role
