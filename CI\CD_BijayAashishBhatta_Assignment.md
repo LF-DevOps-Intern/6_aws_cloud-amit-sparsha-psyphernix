@@ -30,10 +30,6 @@
 3. **Integrating both these scripts with Github Actions:**
 
     ![image](https://user-images.githubusercontent.com/34814966/146608085-5db0f2e5-ce80-4de4-839c-f8f4ea591338.png)
-
-    ![image](https://user-images.githubusercontent.com/34814966/146612233-8a2ee691-4f9c-435b-9361-ff88bc06bb20.png)
-
-    ![image](https://user-images.githubusercontent.com/34814966/146615035-c40eea00-a3c8-41ee-9ee6-1963d46d6cc3.png)
     
     ![image](https://user-images.githubusercontent.com/34814966/146612329-ecac5889-1234-4631-abf1-f51e53e25dbd.png)
 
@@ -42,3 +38,6 @@
     ![image](https://user-images.githubusercontent.com/34814966/146614787-1c4ca6ba-2d24-4f17-827f-3a5e9e3ded59.png)
 
     ![image](https://user-images.githubusercontent.com/34814966/146613841-940e87e6-c7d7-4152-9cdb-399235eaa40c.png)
+    
+    ![image](https://user-images.githubusercontent.com/34814966/146617195-8eea4653-114e-4420-99bb-f993e1296ac4.png)
+
