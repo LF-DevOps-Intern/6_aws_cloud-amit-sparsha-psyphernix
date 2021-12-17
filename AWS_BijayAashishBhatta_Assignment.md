@@ -59,6 +59,17 @@
 
 3. **Hosting a react application on an S3 Bucket and deliver it through cloudfront:**
 
+    ![image](https://user-images.githubusercontent.com/34814966/146485927-dab798ee-01ca-4374-8ed6-98240af39693.png)
+
+    ![image](https://user-images.githubusercontent.com/34814966/146486006-ad37484d-c38f-4404-890a-4152bd18d84e.png)
+
+    ![image](https://user-images.githubusercontent.com/34814966/146486221-e2dbcb83-aeaf-4d7c-9ac6-6a01a485f0a8.png)
+
+    ![image](https://user-images.githubusercontent.com/34814966/146488116-5cd40a18-0f96-40ab-90f5-bd4fe3e9a61f.png)
+
+    ![image](https://user-images.githubusercontent.com/34814966/146488377-ee509377-6eb2-478b-9f0b-319ec902aa97.png)
+
+    
 
 4. **Creating two Lambda Functions - First Lambda function returns 200 Response as {“Hello”: “Default”}
 and Second Lambda function returns 200 Response as {“Hello”: “{Dynamic route name}”} :**
