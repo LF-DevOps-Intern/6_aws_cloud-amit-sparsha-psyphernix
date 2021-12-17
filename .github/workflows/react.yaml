@@ -3,7 +3,7 @@ name: React Deployment S3 bucket
 on:
   push:
     branches:
-      - ci-cd-pranav
+      - main
 
 jobs:
   deploy:
