@@ -5,9 +5,6 @@ on:
     branches:
       - ci-cd-pranav
 
-env:
-  AWS_REGION: us-east-2
-
 jobs:
   deploy:
     name: Deploy
@@ -28,7 +25,7 @@ jobs:
       with:
         aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
         aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        aws-region: ${{ env.AWS_REGION }} 
+        aws-region: us-east-2
         
     - name: Run script
       run: bash ./CID/deployReactS3.sh
