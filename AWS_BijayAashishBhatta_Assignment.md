@@ -69,7 +69,7 @@
 
     ![image](https://user-images.githubusercontent.com/34814966/146488377-ee509377-6eb2-478b-9f0b-319ec902aa97.png)
 
-    I could not provice alternate domain name as ssl certificate is still pending, so I am doing without alternative domain name.
+    I could not provide alternate domain name as ssl certificate is still pending, so I am doing without alternative domain name.
     
     ![image](https://user-images.githubusercontent.com/34814966/146491871-5f005626-b1f5-49c3-8f46-67379e7156a0.png)
 
@@ -80,6 +80,16 @@
 
 4. **Creating two Lambda Functions - First Lambda function returns 200 Response as {“Hello”: “Default”}
 and Second Lambda function returns 200 Response as {“Hello”: “{Dynamic route name}”} :**
+    
+   - First Function:
+   
+   ![image](https://user-images.githubusercontent.com/34814966/146504301-2b73f7ac-6487-4258-acf1-92d40a8213ec.png
+     
+     
+   - Second Function:
+   
+   ![image](https://user-images.githubusercontent.com/34814966/146504497-351e18e4-1193-4179-9e44-4f5d8ce9cd32.png)
+
 
   - Configure API Gateway with that hits first lambda function on / and the second lambda function on /* : 
 
