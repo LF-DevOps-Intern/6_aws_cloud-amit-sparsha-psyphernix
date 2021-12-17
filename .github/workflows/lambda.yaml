@@ -26,4 +26,4 @@ jobs:
         aws-region: ${{ env.AWS_REGION }} 
         
     - name: Run script
-      run: bash ./CID/deployReactS3.sh
+      run: bash ./CID/deployLambda.sh
