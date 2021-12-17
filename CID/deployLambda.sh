@@ -1,5 +1,7 @@
 #!/bin/bash
 export AWS_MAX_ATTEMPTS=1
+
+cd "${0%/*}"
 role=bab-bl-role-ga
 fileName=bab-bl
 timeOut=5
