@@ -69,7 +69,14 @@
 
     ![image](https://user-images.githubusercontent.com/34814966/146488377-ee509377-6eb2-478b-9f0b-319ec902aa97.png)
 
+    I could not provice alternate domain name as ssl certificate is still pending, so I am doing without alternative domain name.
     
+    ![image](https://user-images.githubusercontent.com/34814966/146491871-5f005626-b1f5-49c3-8f46-67379e7156a0.png)
+
+    ![image](https://user-images.githubusercontent.com/34814966/146492039-210d8516-25ee-480e-84fd-fd1a1cfb87c6.png)
+
+    ![image](https://user-images.githubusercontent.com/34814966/146494645-3c9757a1-9113-4048-9f11-31be9b2a4267.png)
+
 
 4. **Creating two Lambda Functions - First Lambda function returns 200 Response as {“Hello”: “Default”}
 and Second Lambda function returns 200 Response as {“Hello”: “{Dynamic route name}”} :**
