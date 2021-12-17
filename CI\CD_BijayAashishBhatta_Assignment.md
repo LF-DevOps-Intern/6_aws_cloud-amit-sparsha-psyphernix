@@ -4,7 +4,8 @@
     
         $ sudo vim deployLambda.sh
         
-    
+    ![image](https://user-images.githubusercontent.com/34814966/146601829-915f3087-92c8-4c8a-beb4-d7dfef85ee03.png)
+
         $ chmod +x deployLambda.sh
         $ ./deployLamda.sh
 
