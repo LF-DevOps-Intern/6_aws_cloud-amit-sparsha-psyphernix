@@ -1,8 +1,10 @@
 1. **Creating a bash script to deploy lambda functions:**
     
+    ![image](https://user-images.githubusercontent.com/34814966/146597483-957ec49d-3d2b-4de3-b817-70bf2a82a5fe.png)
+    
         $ sudo vim deployLambda.sh
         
-        
+    
         $ chmod +x deployLambda.sh
         $ ./deployLamda.sh
 
